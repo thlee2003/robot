@@ -19,7 +19,7 @@ def main():
     # i611 로봇 생성자
     rb = i611Robot()
     # 좌표계의 정의
-    _BASE = Base()
+    _BASE = Basse()
     # 로봇과 연결 시작 초기화
     rb.open()
     # I/O 입출력 기능의 초기화 (I/O 미사용시 생략 가능 )
